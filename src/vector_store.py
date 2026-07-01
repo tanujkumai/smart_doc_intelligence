@@ -158,7 +158,7 @@ def clear_database() -> None:
 
     try:
 
-        vector_store.reset_collection()
+        vector_store.delete_collection()
 
         LOGGER.info(
             "Vector database cleared."
