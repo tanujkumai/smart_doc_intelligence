@@ -5,13 +5,13 @@
 🚀 **Application:** *(Coming Soon)*
 
 ```
-https://your-app-url.streamlit.app
+https://smartdocintelligence.streamlit.app/
 ```
 
 💻 **GitHub Repository**
 
 ```
-https://github.com/yourusername/smart_doc_intelligence
+https://github.com/tanujkumai/smart_doc_intelligence
 ```
 
 ---
