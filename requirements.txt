@@ -1,57 +1,26 @@
-# =========================
-# Streamlit App
-# =========================
-streamlit>=1.45.0
+streamlit==1.45.1
 
-# =========================
-# LangChain Stack
-# =========================
-langchain>=0.3.25
-langchain-community>=0.3.25
-langchain-google-genai>=2.1.5
-langchain-chroma>=0.1.4
+python-dotenv==1.1.0
 
-# =========================
-# Google GenAI
-# =========================
-google-generativeai>=0.8.5
+PyMuPDF==1.26.0
 
-# =========================
-# Vector DB
-# =========================
-chromadb>=1.0.12
+langchain==0.3.26
+langchain-core==0.3.68
+langchain-community==0.3.27
 
-# =========================
-# PDF Processing
-# =========================
-pypdf>=5.6.0
-pymupdf>=1.26.0
+langchain-google-genai==2.1.7
+langchain-chroma==0.2.4
+langchain-huggingface==0.3.0
 
-# =========================
-# Embeddings
-# =========================
-sentence-transformers>=4.1.0
+chromadb==1.0.15
 
-# =========================
-# ML / Torch (FIX FOR TORCHVISION ERROR)
-# =========================
-torch>=2.2.0
-torchvision>=0.17.0
+sentence-transformers==3.4.1
 
-# =========================
-# Utilities
-# =========================
-python-dotenv>=1.1.0
-pandas>=2.2.3
-numpy>=2.2.6
-docx2txt>=0.9
-python-docx>=1.1.2
-reportlab>=4.5.0
-tqdm>=4.67.1
-requests>=2.32.3
-typing-extensions>=4.13.2
+transformers==4.48.3
 
-# =========================
-# Testing
-# =========================
-pytest>=8.3.5
+torch==2.6.0
+
+python-docx==1.1.2
+
+pytest==8.3.5
+pytest-cov==6.0.0
